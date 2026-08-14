@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/interfaces_pkg/rosidl_generator_c/interfaces_pkg/msg/detail/path_planning_result__struct.h

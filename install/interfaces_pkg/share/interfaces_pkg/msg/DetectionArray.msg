@@ -1,0 +1,1 @@
+/home/user/ros2_ws/src/interfaces_pkg/msg/DetectionArray.msg

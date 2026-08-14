@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/interfaces_pkg/rosidl_typesupport_fastrtps_cpp/interfaces_pkg/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,0 +1,21 @@
+{
+  "package_name": "interfaces_pkg",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/Point2D.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/Vector2.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/Pose2D.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/BoundingBox2D.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/BoundingBox3D.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/Mask.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/KeyPoint2D.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/KeyPoint2DArray.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/KeyPoint3D.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/KeyPoint3DArray.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/Detection.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/DetectionArray.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/LaneInfo.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/MotionCommand.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/TargetPoint.msg",
+    "/home/user/ros2_ws/src/interfaces_pkg:msg/PathPlanningResult.msg"
+  ]
+}

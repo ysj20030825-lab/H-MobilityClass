@@ -22,6 +22,7 @@ ROI_IMAGE_TOPIC_NAME = "roi_image"  # 추가: ROI 이미지 퍼블리시 토픽
 
 # 화면에 이미지를 처리하는 과정을 띄울것인지 여부: True, 또는 False 중 택1하여 입력
 SHOW_IMAGE = True
+
 #----------------------------------------------
 
 
@@ -60,11 +61,11 @@ class Yolov8InfoExtractor(Node):
         src_mat = [[238, 316],[402, 313], [501, 476], [155, 476]]
         
         lane2_bird_image = CPFL.bird_convert(lane2_edge_image, srcmat=src_mat, dstmat=dst_mat)
-        roi_image = CPFL.roi_rectangle_below(lane2_bird_image, cutting_idx=300)
+        roi_image = CPFL.roi_rectangle_below(lane2_bird_image, cutting_idx=270)
 
         if self.show_image:
-            cv2.imshow('lane2_edge_image', lane2_edge_image)
-            cv2.imshow('lane2_bird_img', lane2_bird_image)
+            #cv2.imshow('lane2_edge_image', lane2_edge_image)
+            #cv2.imshow('lane2_bird_img', lane2_bird_image)
             cv2.imshow('roi_img', roi_image)
             cv2.waitKey(1)
 

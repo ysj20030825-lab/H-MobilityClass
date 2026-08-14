@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/interfaces_pkg/rosidl_typesupport_introspection_c/interfaces_pkg/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h

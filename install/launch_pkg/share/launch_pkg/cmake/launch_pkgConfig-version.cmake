@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/launch_pkg/ament_cmake_core/launch_pkgConfig-version.cmake

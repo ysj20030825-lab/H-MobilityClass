@@ -59,7 +59,7 @@ class TrafficLightDetector(Node):
         
         traffic_light_detected = False
         for detection in detection_msg.detections:
-            if detection.class_name == 'traffic_light':
+            if detection.class_name == 'light':
 
                 hsv_ranges = {
                     'red1': (np.array([0, 100, 95]), np.array([10, 255, 255])),
